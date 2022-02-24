@@ -1,0 +1,31 @@
+{
+  "name": "express-tdd",
+  "version": "1.0.0",
+  "description": "CRUD REST API with Nodejs using TDD in Jest in JavaScript, with unit testing and integration test Deploy to Azure AppService(WebApp)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarathep/express-tdd.git"
+  },
+  "author": "tarathep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarathep/express-tdd/issues"
+  },
+  "homepage": "https://github.com/tarathep/express-tdd#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb-memory-server": "^8.4.0",
+    "mongoose": "^6.2.3",
+    "node-mocks-http": "^1.11.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
